@@ -4,7 +4,7 @@ Site web statique (HTML et CSS) presentant le departement des Technologies de l'
 
 ## Lien du site
 
-A completer apres la publication (GitHub Pages) : https://PSEUDO.github.io/iuc-ti-expert/
+https://wendy470.github.io/IUC-TI-EXPERT/
 
 ## Membres et repartition
 
