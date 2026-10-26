@@ -1,0 +1,11 @@
+/* Style propre a la page d'accueil (Membre 1) */
+.hero {
+  background: linear-gradient(135deg, var(--bleu), var(--bleu-fonce));
+  color: #fff; padding: 5rem 0; text-align: center;
+}
+.hero h1 { font-size: clamp(1.9rem, 5vw, 3rem); margin-bottom: 1rem; }
+.hero p { max-width: 720px; margin: 0 auto 1.6rem; color: #dbe4fa; font-size: 1.1rem; }
+.faits { list-style: none; display: grid; gap: .6rem; }
+.faits li { background: #fff; padding: .9rem 1.2rem; border-left: 4px solid var(--orange); border-radius: 6px; }
+.partenaires { text-align: center; }
+.partenaires p { margin-bottom: 1rem; }

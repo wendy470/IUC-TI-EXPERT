@@ -1,0 +1,11 @@
+/* Style propre a la page Formations (Membre 2) */
+.carte h4 { margin-top: 1rem; color: var(--bleu-fonce); }
+.carte ul { margin-left: 1.2rem; }
+.etiquette {
+  display: inline-block; background: #e3ebfb; color: var(--bleu);
+  padding: .15rem .7rem; border-radius: 999px; font-size: .85rem; margin: .15rem .2rem .15rem 0;
+}
+.tableau { width: 100%; border-collapse: collapse; background: #fff; border-radius: 10px; overflow: hidden; }
+.tableau th, .tableau td { padding: .8rem 1rem; text-align: left; border-bottom: 1px solid #e3e8f2; }
+.tableau th { background: var(--bleu); color: #fff; }
+.defilement { overflow-x: auto; }
