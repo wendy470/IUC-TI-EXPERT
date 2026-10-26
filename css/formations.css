@@ -9,3 +9,8 @@
 .tableau th, .tableau td { padding: .8rem 1rem; text-align: left; border-bottom: 1px solid #e3e8f2; }
 .tableau th { background: var(--bleu); color: #fff; }
 .defilement { overflow-x: auto; }
+/* ===== Détails de présentation ===== */
+.carte li { margin-bottom: .3rem; }
+.tableau tbody tr:hover { background: #f4f7fd; }
+.tableau tbody tr:last-child td { border-bottom: none; }
+.carte .etiquette { margin-bottom: .5rem; }
