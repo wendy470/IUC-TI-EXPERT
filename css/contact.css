@@ -1,4 +1,4 @@
-/* Style propre a la page Contact (Membre 3) */
+/* Style propre a la page Contact (Membre 2) */
 .contact-grille { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
 .coordonnees p { margin-bottom: .6rem; }
 form label { display: block; font-weight: 600; margin: .8rem 0 .3rem; }
@@ -8,3 +8,10 @@ form input, form textarea {
 form input:focus, form textarea:focus { outline: 2px solid var(--orange); }
 form button { margin-top: 1rem; }
 .note { font-size: .85rem; color: #5a6480; margin-top: .8rem; }
+form textarea { min-height: 140px; resize: vertical; }
+form input:hover, form textarea:hover { border-color: var(--orange); }
+
+@media (max-width: 700px) {
+  .contact-grille { grid-template-columns: 1fr; gap: 1rem; }
+  form button { width: 100%; }
+}
