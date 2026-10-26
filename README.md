@@ -38,7 +38,7 @@ iuc-ti-expert/
 ## Methode de travail
 
 * Une branche par membre, aucun push direct sur `main`.
-* Commits courts au format Conventional Commits (`feat:`, `style:`, `docs:`, `fix:`, `chore:`).
+* Commits courts au format Conventional Commits (`feat:`, `style:`, `fix:`).
 * Une Pull Request par branche, relue par un autre membre avant la fusion.
 
 ## Sources des informations
