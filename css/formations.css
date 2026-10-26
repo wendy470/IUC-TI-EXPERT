@@ -14,3 +14,9 @@
 .tableau tbody tr:hover { background: #f4f7fd; }
 .tableau tbody tr:last-child td { border-bottom: none; }
 .carte .etiquette { margin-bottom: .5rem; }
+/* ===== Responsive ===== */
+@media (max-width: 700px) {
+  .tableau th, .tableau td { padding: .6rem .7rem; font-size: .9rem; }
+  .carte h4 { margin-top: .8rem; }
+  .etiquette { font-size: .8rem; }
+}
