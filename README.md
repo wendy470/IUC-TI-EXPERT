@@ -8,18 +8,17 @@ A completer apres la publication (GitHub Pages) : https://PSEUDO.github.io/iuc-t
 
 ## Membres et repartition
 
-| Membre | Branche | Fichiers |
-|--------|---------|----------|
-| NOM 1 (createur du projet) | `feature/accueil` | `index.html`, `css/base.css`, `css/accueil.css` |
-| NOM 2 | `feature/formations` | `formations.html`, `css/formations.css` |
-| NOM 3 | `feature/contact` | `contact.html`, `css/contact.css` |
+|Membre|Branche|Fichiers|
+|-|-|-|
+|DONGHO WENDY (createur du projet)|`feature/accueil`|`index.html`, `css/base.css`, `css/accueil.css`|
+|ZEBAZE MICHELLE|`feature/formations-contacts`|`formations.html`, `css/formations.css`, `contact.html`, `css/contact.css`|
 
 ## Branches
 
-- `main` : version finale du site
-- `feature/accueil` : page d'accueil et style commun
-- `feature/formations` : page des formations
-- `feature/contact` : page de contact
+* `main` : version finale du site
+* `feature/accueil` : page d'accueil et style commun
+* `feature/formations` : page des formations
+* `feature/contact` : page de contact
 
 ## Structure du projet
 
@@ -38,10 +37,11 @@ iuc-ti-expert/
 
 ## Methode de travail
 
-- Une branche par membre, aucun push direct sur `main`.
-- Commits courts au format Conventional Commits (`feat:`, `style:`, `docs:`, `fix:`, `chore:`).
-- Une Pull Request par branche, relue par un autre membre avant la fusion.
+* Une branche par membre, aucun push direct sur `main`.
+* Commits courts au format Conventional Commits (`feat:`, `style:`, `docs:`, `fix:`, `chore:`).
+* Une Pull Request par branche, relue par un autre membre avant la fusion.
 
 ## Sources des informations
 
 Contenu base sur le site de l'Institut d'Ingenierie Informatique d'Afrique Centrale (3IAC) : https://3iac.myiuc.com
+
